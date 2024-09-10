@@ -97,10 +97,6 @@ body {
     color:white;
 }
 
-.line{
-    rotate: 90deg;
-}
-
 .about-title{
     width: 138px;
     height: 100%;
@@ -167,4 +163,23 @@ body {
 .about-title-text{
     rotate: 270deg;
 
+}
+
+.estimate {
+    display: flex;
+}
+
+.lines {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+}
+
+.line {
+    height: 745px;
+    width: 1px;
+    border: none;
+    background-color: rgba(37, 37, 44, 0.07);
+    margin-top: 0;
 }
