@@ -166,6 +166,7 @@ body {
 
 .estimate {
     display: flex;
+    background-color: #FAFAFA;
 }
 
 .lines {
@@ -204,7 +205,16 @@ body {
     margin: 187px 0 0 482px;
 }
 
-.list-content{
+.house {
+    background-color: #FAFAFA;
+    padding-top: 50px;
+}
+
+.house-title {
+    margin: 0;
+}
+
+.list-content {
     margin-left: 180px;
 }
 
@@ -213,7 +223,8 @@ body {
     align-items: center;
     gap: 25px;
 }
-.list-circle{
+
+.list-circle {
     width: 64px;
     height: 64px;
     border-radius: 50%;
@@ -222,29 +233,98 @@ body {
     position: relative;
 }
 
-.list-circle-img{
+.list-circle-img {
     position: absolute;
     margin: 20px 20px;
-    width:24px;
-    height:24px;
+    width: 24px;
+    height: 24px;
 }
 
-.house-content{
+.house-content {
     display: flex;
     align-items: center;
 }
 
-.house p:first-child{
+.house p:first-child {
     font-size: 32px;
     margin-left: 385px;
     font-weight: bold;
 }
 
 .projects {
-    margin-top: 53px;
+    background-color: #FAFAFA;
+    padding-top: 53px;
 }
 
 .projects-title {
     text-align: center;
     font-size: xx-large;
+    margin: 0;
 }
+
+.projects-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-card {
+    display: flex;
+    flex-direction: column;
+    max-height: 481px;
+    max-width: 380px;
+    background-color: white;
+}
+
+.card-img {
+    position: relative;
+}
+
+.card-circles {
+    position: absolute;
+    display: flex;
+    gap: 8px;
+    margin-top: 231px;
+    margin-left: 148px;
+}
+
+.card-title {
+    margin: 18px 0 0 18px;
+}
+
+.house-info {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 18px 0 0 0;
+    justify-content: space-around;
+}
+
+.img-text {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 19px;
+}
+
+.card-text {
+    margin: 0;
+}
+
+.card-line {
+    background: rgba(235, 235, 236, 0.05);
+}
+
+.card-price {
+    margin-top: 21px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-price {
+    margin: 0 0 5px 0;
+}
+
+.text-price-title {
+    font-size: large;
+    margin: 0;
+}
+
