@@ -6,7 +6,7 @@ body {
     margin: 0
 }
 
-.banner{
+.banner {
     display: flex;
 }
 
@@ -90,25 +90,25 @@ body {
     position: relative;
 }
 
-.about{
+.about {
     height: 800px;
     display: flex;
     background-color: #1E262F;
-    color:white;
+    color: white;
 }
 
-.about-title{
+.about-title {
     width: 138px;
     height: 100%;
 }
 
-.about-title-text{
+.about-title-text {
     text-align: center;
     margin-top: 370px;
     opacity: 0.1;
 }
 
-.about-company{
+.about-company {
     width: 373px;
     height: 100%;
     margin: 300px 0px 0px 60px;
@@ -116,13 +116,12 @@ body {
     font-weight: bold;
 }
 
-.about-company p:first-child{
+.about-company p:first-child {
     font-size: 32px;
 }
 
 
-
-.about-content{
+.about-content {
     width: 748px;
     height: 100%;
     display: flex;
@@ -130,19 +129,19 @@ body {
     text-align: center;
 }
 
-.img-play{
+.img-play {
     display: flex;
     position: relative;
     margin: 0px 0px 40px 50px;
 }
 
-.video{
+.video {
     width: 100%;
     border-radius: 12px;
 }
 
-.play-button{
-    opacity:0.7;
+.play-button {
+    opacity: 0.7;
     background-color: transparent;
     width: 60px;
     height: 60px;
@@ -151,16 +150,16 @@ body {
     margin: 105px 200px;
 }
 
-.about-content p{
+.about-content p {
     text-align: left;
 }
 
-.company-name{
+.company-name {
     font-size: 56px;
     font-family: Oranienbaum;
 }
 
-.about-title-text{
+.about-title-text {
     rotate: 270deg;
 
 }
@@ -182,4 +181,20 @@ body {
     border: none;
     background-color: rgba(37, 37, 44, 0.07);
     margin-top: 0;
+}
+
+.estimate-texts {
+    position: absolute;
+    margin-top: 272px;
+    margin-left: 162px;
+}
+
+.estimate-title {
+    font-size: xx-large;
+    margin: 0 0 12px 0;
+}
+
+.estimate-text {
+    max-width: 320px;
+    margin: 0;
 }
