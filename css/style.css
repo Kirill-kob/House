@@ -203,3 +203,39 @@ body {
     position: absolute;
     margin: 187px 0 0 482px;
 }
+
+.list-content{
+    margin-left: 180px;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.list-circle{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    align-items: center;
+    position: relative;
+}
+
+.list-circle-img{
+    position: absolute;
+    margin: 20px 20px;
+    width:24px;
+    height:24px;
+}
+
+.house-content{
+    display: flex;
+    align-items: center;
+}
+
+.house p:first-child{
+    font-size: 32px;
+    margin-left: 385px;
+    font-weight: bold;
+}
