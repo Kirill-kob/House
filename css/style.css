@@ -5,11 +5,21 @@
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .logo {
     color: white;
     margin-left: 52px;
     font-weight: bold;
+}
+
+.header-nav {
+    display: flex;
+    gap: 18px;
+}
+
+.header-nav-link {
+    color: white;
+    text-decoration: none;
 }
