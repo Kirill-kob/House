@@ -254,6 +254,9 @@ body {
 .projects {
     background-color: #FAFAFA;
     padding-top: 53px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .projects-title {
@@ -266,6 +269,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    gap: 24px;
 }
 
 .projects-card {
@@ -328,3 +332,15 @@ body {
     margin: 0;
 }
 
+.cards-but {
+    margin-top: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 55px;
+    background-color: black;
+    color: white;
+    min-width: 283px;
+    height: 64px;
+}
