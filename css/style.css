@@ -239,3 +239,12 @@ body {
     margin-left: 385px;
     font-weight: bold;
 }
+
+.projects {
+    margin-top: 53px;
+}
+
+.projects-title {
+    text-align: center;
+    font-size: xx-large;
+}
