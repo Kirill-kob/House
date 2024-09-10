@@ -6,6 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 201px;
 }
 
 .logo {
@@ -22,4 +23,26 @@
 .header-nav-link {
     color: white;
     text-decoration: none;
+}
+
+.banner-text {
+    margin-left: 138px;
+    max-width: 466px;
+    color: white;
+}
+
+.banner-text-mini {
+    font-size: small;
+    margin: 0;
+}
+
+.banner-text-big {
+    font-size: xxx-large;
+    font-weight: bold;
+    margin: 0;
+}
+
+.banner-text-medium {
+    font-size: large;
+    margin: 0;
 }
