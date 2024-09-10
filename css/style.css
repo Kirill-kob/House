@@ -198,3 +198,8 @@ body {
     max-width: 320px;
     margin: 0;
 }
+
+.estimate-img {
+    position: absolute;
+    margin: 187px 0 0 482px;
+}
