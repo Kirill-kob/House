@@ -259,13 +259,13 @@ body {
 .projects-title {
     text-align: center;
     font-size: xx-large;
-    margin: 0;
+    margin: 0 0 44px 0;
 }
 
 .projects-cards {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .projects-card {
