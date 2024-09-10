@@ -25,8 +25,12 @@
     text-decoration: none;
 }
 
-.banner-text {
+.banner-container {
     margin-left: 138px;
+}
+
+.banner-text {
+
     max-width: 466px;
     color: white;
 }
@@ -45,4 +49,16 @@
 .banner-text-medium {
     font-size: large;
     margin: 0;
+}
+
+.banner-but {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 55px;
+    background-color: black;
+    color: white;
+    min-width: 255px;
+    height: 64px;
 }
