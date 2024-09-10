@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    color: white;
+    margin-left: 52px;
+    font-weight: bold;
+}
